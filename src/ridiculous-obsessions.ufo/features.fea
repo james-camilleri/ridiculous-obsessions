@@ -1,0 +1,11 @@
+
+
+@GDEF_Simple = [\space \exclam \quotedbl \ampersand \quotesingle \comma \period 
+	\colon \semicolon \question \A \C \F \L \O \P \T \V \W \Y \a \b \c \d \e \f \g \h \i \j \k \l \m 
+	\n \o \p \q \r \s \t \u \v \w \x \y \z ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , , ;
+
+} GDEF;
+
